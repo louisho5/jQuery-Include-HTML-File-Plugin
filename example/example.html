@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery.1.12.4.min.js"></script>
+
+<script src="../jquery.includeHTML.min.js"></script>
+<!-- NOTES: This plugin require jQuery and Ajax -->
+<!-- NOTES: There are totally 6 functions are provided in this plugin -->
+<!-- .loadHTML(Path);			is to load external HTML file as html format into your element --->
+<!-- .appendHTML(Path);			is to add external HTML file as html format into the end of your element --->
+<!-- .prependHTML(Path);		is to add external HTML file as html format into the front of your element --->
+<!-- .loadTEXT(Path);			is to load external TXT file as pure text format into your element --->
+<!-- .appendTEXT(Path); 		is to add external TXT file as pure text format into the end of your element --->
+<!-- .prependTEXT(Path);		is to add external TXT file as pure text format into the front of your element --->
+<!-- All functions require your EXTERNAL HTML FILE PATH in the bracket -->
+
+<script>
+function loadFile1() {
+	$("#container").loadHTML("a.html");
+}
+function loadFile2() {
+	$("#container").appendHTML("b.html");
+}
+function loadFile3() {
+	$("#container").prependTEXT("b.html");
+}
+</script>
+</head>
+
+<body>
+
+<div id="container"></div>
+<button onclick="loadFile1()">load a.html</button>
+<button onclick="loadFile2()">Add b.html</button>
+<button onclick="loadFile3()">Pre-add b.html as text</button>
+
+</body>
+</head>
+</html>

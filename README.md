@@ -93,7 +93,8 @@ is used append external TXT file as pure text format into your element
 	
 is used prepend external TXT file as pure text format into your element
 
-All functions require your EXTERNAL HTML FILE PATH in the bracket
+
+All functions require your EXTERNAL HTML FILE PATH as the parameter in the bracket.
 
 ## License
 

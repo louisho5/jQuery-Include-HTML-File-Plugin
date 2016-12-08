@@ -67,7 +67,7 @@ All functions require your EXTERNAL HTML FILE PATH in the bracket
 		</body>
 	</html>
 
-**include.inc**:
+**a.html**:
 
 	<div>
 		This is "a.html"

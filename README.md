@@ -12,9 +12,13 @@ Louis Ho
 
 ## Installation
 
-Include `jquery.includeHTML.min.js` after calling jQuery in the footer. 
+To include the plugin in your code:
 
-Alternatively, install with [bower](https://github.com/bower/bower): bower install jquery.includeHTML
+	<script src="jquery.include.js"></script>
+
+Alternatively, install with [bower](https://github.com/bower/bower): 
+	
+	bower install jquery.includeHTML
 
 ## Requirements/Browsers
 
@@ -31,14 +35,44 @@ NOTES: This plugin require jQuery and Ajax
 
 There are totally 6 functions are provided in this plugin:
 
-.loadHTML(Path);		is used to load external HTML file as html format into your element
-.appendHTML(Path);		is used append external HTML file as html format into your element
-.prependHTML(Path);		is used prepend external HTML file as html format into your element
-.loadTEXT(Path);		is used load external TXT file as pure text format into your element
-.appendTEXT(Path); 		is used append external TXT file as pure text format into your element
-.prependTEXT(Path);		is used prepend external TXT file as pure text format into your element
+.loadHTML(Path)		is used to load external HTML file as html format into your element
+
+.appendHTML(Path)		is used append external HTML file as html format into your element
+
+.prependHTML(Path)		is used prepend external HTML file as html format into your element
+
+.loadTEXT(Path)		is used load external TXT file as pure text format into your element
+
+.appendTEXT(Path) 		is used append external TXT file as pure text format into your element
+
+.prependTEXT(Path)		is used prepend external TXT file as pure text format into your element
 
 All functions require your EXTERNAL HTML FILE PATH in the bracket
+
+**index.htm**:
+
+	<html>
+		<head>
+			<script src="jquery.1.12.4.min.js"></script>
+			<script src="jquery.includeHTML.min.js"></script>
+
+			<script>
+				$(document).ready(function () {
+					$("#container").loadHTML("a.html");
+				});
+			</script>
+		</head>
+		<body>
+			<div id="container"></div>
+		</body>
+	</html>
+
+**include.inc**:
+
+	<div>
+		This is "a.html"
+	</div>
+
 
 See `example.html` in example folder.
 

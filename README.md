@@ -56,7 +56,7 @@ Tested with jQuery 1.12.x.
 **a.html**:
 
 	<div>
-		This is "a.html"
+		This is "a.html".
 	</div>
 
 

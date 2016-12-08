@@ -1,6 +1,6 @@
 {
   "name": "jquery.includeHTML",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "dependencies": {
   	"jquery": ">=1.12.4"
   },

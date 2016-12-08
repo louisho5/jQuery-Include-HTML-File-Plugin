@@ -1,6 +1,6 @@
 # jQuery Load HTML file, TXT file without iframe
 
-Version 1.0.0
+Version 1.0.2
 
 ## Summary
 

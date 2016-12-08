@@ -64,34 +64,34 @@ See `example.html` in example folder.
 
 ## Functions
 
-NOTES: This plugin requires jQuery and Ajax
+NOTES: This plugin requires jQuery and Ajax.
 
 
 There are totally 6 functions are provided in this plugin:
 
 	.loadHTML(Path)		
 
-is used to load external HTML file as html format into your element
+is used to load external HTML file as html format into your element.
 
 	.appendHTML(Path)		
 
-is used append external HTML file as html format into your element
+is used append external HTML file as html format into your element.
 
 	.prependHTML(Path)		
 	
-is used prepend external HTML file as html format into your element
+is used prepend external HTML file as html format into your element.
 
 	.loadTEXT(Path)		
 	
-is used load external TXT file as pure text format into your element
+is used load external TXT file as pure text format into your element.
 
 	.appendTEXT(Path) 		
 	
-is used append external TXT file as pure text format into your element
+is used append external TXT file as pure text format into your element.
 
 	.prependTEXT(Path)		
 	
-is used prepend external TXT file as pure text format into your element
+is used prepend external TXT file as pure text format into your element.
 
 
 All functions require your EXTERNAL HTML FILE PATH as the parameter in the bracket.

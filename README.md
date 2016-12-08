@@ -14,7 +14,11 @@ Louis Ho
 
 To include the plugin in your code:
 
-	<script src="jquery.include.js"></script>
+	<script src="jquery.includeHTML.js"></script>
+	
+or
+
+	<script src="jquery.includeHTML.min.js"></script>
 
 Alternatively, install with [bower](https://github.com/bower/bower): 
 	

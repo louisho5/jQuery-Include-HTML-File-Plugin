@@ -8,7 +8,7 @@ Simple jQuery plugin to import the external html/txt file into your current html
 
 ## Author
 
-louisho5
+@louisho5
 
 ## Installation
 

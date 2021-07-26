@@ -8,7 +8,7 @@ Simple jQuery plugin to import the external html/txt file into your current html
 
 ## Author
 
-Louis Ho
+louisho5
 
 ## Installation
 
@@ -20,9 +20,6 @@ or
 
 	<script src="jquery.includeHTML.min.js"></script>
 
-Alternatively, install with [bower](https://github.com/bower/bower): 
-	
-	bower install jquery.includeHTML
 
 ## Requirements/Browsers
 
